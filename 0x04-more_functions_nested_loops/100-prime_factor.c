@@ -12,7 +12,7 @@ double _sqrt(double x)
 {
 	float sqrt, tmp;
 
-	sqrt x / 2;
+	sqrt = x / 2;
 	tmp = 0;
 
 	while (sqrt != tmp)
@@ -30,9 +30,11 @@ double _sqrt(double x)
  * @num: number to find
 */
 
-void largest_prime_factor(long long num)
+void largest_prime_factor(long num)
 {
-	int prmNu, Largest;
+	int prmNu, largest;
+
+
 
 	/* first divide with the smallest prime number (two) */
 	while (num % 2 == 0)
@@ -50,7 +52,7 @@ void largest_prime_factor(long long num)
 
 
 	if (num > 1)
-		larest = num;
+		largest = num;
 	printf("%d\n", largest);
 }
 
