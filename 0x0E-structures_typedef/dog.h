@@ -3,10 +3,10 @@
 
 /**
  * struct dog - a dog struct
- * @name - dog's name
- * @age - dog's age
- * @owner - dog's owner name
- * 
+ * @name: dog's name
+ * @age: dog's age
+ * @owner: dog's owner name
+ *
  * Description - just a long dog struct in a big kitty world
 */
 
